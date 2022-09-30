@@ -1,0 +1,118 @@
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../../images/bg-boost-desktop.svg) #3A3054;
+    width: 1440px;
+    height: 250px;
+
+    h2 {
+        justify-content: center;
+        color: white;
+        margin-bottom: 32px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    button {
+        background-color: #2BD0D0 !important;
+        border: #2BD0D0 !important;
+        border-radius: 100px !important;
+        width: 197px;
+        height: 56px;
+        font-weight: 700;
+        
+    }
+}
+
+$font-bold: "Poppins-Bold", sans-serif;
+
+.footer2 {
+    width: 1440px;
+    height: 348px;
+    background-color: #232127;
+
+}
+
+.foot-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 210px;
+    padding-right: 118.53px;
+    height: 258px;
+    margin-bottom: 72px;
+    .buttons {
+        width: 461px;
+        display: flex;
+        justify-content: space-between;
+        .Near-shortly {
+            color: white !important;
+            font-weight: 700;
+            opacity: 1;
+            padding-top: 0!important;
+        }
+    }
+    padding-top: 71.18px;
+
+    .social-icons {
+        display: flex;
+        align-items: start;
+        flex-direction: row;
+    }
+    .Shortly {
+        padding-top: 0 !important;
+        color: white!important;
+        align-self: start;
+        border-top: 0;
+        transform: translateY(-10px);
+    }
+}
+
+.social-icons {
+    gap: 24px;
+
+    .icons {
+        width: 24px;
+        height: 24px;
+    }
+    .icons:hover {
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(82%) sepia(97%) saturate(5613%) hue-rotate(127deg) brightness(86%) contrast(87%); ;
+    }
+
+}
+
+
+.Shortly {
+    padding: 2px !important;
+    display: flex !important;
+    text-align: center !important;
+    font-family: $font-bold  !important;
+    font-size: 30px !important;
+    justify-content: center !important;
+    align-items: center;
+    color: white;
+}
+
+.Feature {
+    p {
+        color: #BFBFBF;
+        font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.234375px
+    }
+    text-align: left;
+    p:hover {
+        cursor: pointer;
+        color: #2BD0D0;
+    }
+    .smlBtn {
+        padding: 0 13.5px;
+        margin-top: 22px;
+    }
+}

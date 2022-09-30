@@ -1,0 +1,174 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+html {
+  width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: local("Poppins-Medium"),
+    url("../../public/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500, 700;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: local("Poppins-Bold"),
+    url("../../public/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 500, 700;
+}
+
+
+$main-color: 9E9AA8;
+$font-bold: "Poppins-Bold", sans-serif;
+
+.App-header {
+  position: relative;
+  display: grid;
+  grid-template-columns: 80% 1fr;
+  margin-left: 167px;
+  margin-right: 167px;
+  margin-top: 48px;
+  height: 40px;
+}
+
+.App {
+  width: 1440px;
+  margin: 0;
+  font-family: "Poppins-Medium", sans-serif;
+  background-color: $main-color;
+  font-size: 15px;
+}
+
+.Main-btn {
+  display: grid;
+  grid-template-columns: 150px repeat(3, 100px);
+  height: 40px;
+  text-align: center;
+  grid-template-rows: 40px;
+}
+
+.Shortly {
+  padding: 2px !important;
+  display: flex !important;
+  text-align: center !important;
+  font-family: $font-bold  !important;
+  font-size: 30px !important;
+  justify-content: center !important;
+  align-items: center;
+  color: #34313D !important;
+}
+
+.Near-shortly {
+  opacity: 0.6;
+  font-style: normal !important;
+  font-weight: 800!important;
+  
+  line-height: 22px!important;
+}
+
+.Near-shortly:hover {
+  color: #34313D !important;
+  opacity: 1;
+}
+
+.button {
+  height: 40px;
+}
+
+.Sign-btn {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+
+}
+
+.Sign-up {
+  background-color: #2BD0D0 !important;
+  border: #2BD0D0 !important;
+  border-radius: 100px !important;
+  width: 105px;
+}
+
+.Sign-up:hover {
+  background-color: #9AE3E3 !important;
+  border: #9AE3E3 !important;
+  cursor: pointer!important;
+}
+
+.color-change-to-white {
+  background-color: #FFFFFF !important;
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 1024px) {
+  body {
+    width: 375px;
+  }
+  html {
+    width: 375px;
+  }
+
+  
+.App-header {
+  position: relative;
+  display: flex;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 40px;
+  height: 33px;
+}
+.hidden {
+  display: none !important;
+}
+
+}

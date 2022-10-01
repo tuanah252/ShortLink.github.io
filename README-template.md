@@ -5,11 +5,13 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 ## Table of contents
 
 -   [Overview](#overview)
+
     -   [The challenge](#the-challenge)
     -   [Screenshot](#screenshot)
     -   [Links](#links)
     -   [Built with](#built-with)
     -   [Continued development](#continued-development)
+    -   [Useful resources](#useful-resources)
     -   [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -49,6 +51,12 @@ Users should be able to:
 ### Continued development
 
 -   On developing responsive for mobile
+
+### Useful resources
+
+-   [Axios] - for adding API
+-   [Vercel](https://vercel.com/) - to hosting project
+-   [shrtcode API](https://app.shrtco.de/) - get API from this site
 
 ## Author
 

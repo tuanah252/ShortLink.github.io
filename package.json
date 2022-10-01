@@ -16,6 +16,7 @@
     "@testing-library/user-event": "^12.0.9",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.1",
+    "firebase-tools": "^11.13.0",
     "gh-pages": "^4.0.0",
     "query-string": "^7.1.1",
     "react": "^17.0.2",
@@ -32,11 +33,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    
-    
   },
-  
-  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -55,5 +52,4 @@
       "last 1 safari version"
     ]
   }
- 
 }
